@@ -1,0 +1,45 @@
+* {
+box-sizing: border-box;
+margin: 0;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+header {
+    background: url(pexels-photo.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    font-size: 76px;
+    color: rgba(255, 255, 255, .8);
+    line-height: 200px;
+    top: 0;
+    margin-bottom: 100px;
+    -webkit-mask-image: -webkit-gradient(linear, left 90%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))
+
+}
+h2 {
+color: rgba(255, 255, 255);
+font-size: 50px;
+font-style: italic;
+line-height: 100px;
+
+}
+
+.food-section, .travel-section, .arty-section {
+line-height: 90px;
+font-size: 60px;
+color: #8c8c8c;
+margin-left: 25px;
+text-align: center;
+}
+
+.milkshake, .crossiant, .pasta, .waffle, .raccoon, .squirrel, .rabbit, .puppy, .pencil, .monkey, .school, .building {
+height: 400px;
+width: 340px;
+display: inline-block;
+border-radius: 25px;
+margin-top: 40px;
+}
+
